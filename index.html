@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
 
@@ -16,7 +17,7 @@
   <ul>
     <li><a href="#sobre">Sobre</a></li>
     <li><a href="#projetos">Projetos</a></li>
-    <li><a href="#ferramentas">Ferramentas</a></li>
+    <li><a href="#resultados">Resultados</a></li><li><a href="#ferramentas">Ferramentas</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
 </nav>
@@ -32,24 +33,8 @@
           com foco em projetos autorais, branding e produção de
           conteúdo para redes sociais.
         </p>
-        <a href="https://mail.google.com/mail/?view=cm&to=guilhermefelipe7982@gmail.com" class="btn-hero">Entrar em contato →</a>
+        <a href="https://mail.google.com/mail/?view=cm&to=guilhermefelipe7982@gmail.com" target="_blank" rel="noopener" class="btn-hero">Entrar em contato →</a>
       </div>
-      <div class="contact-card">
-        <div>
-          <div class="label">Telefone</div>
-          <strong>(11) 91005-0779</strong>
-        </div>
-        <div>
-          <div class="label">Email</div>
-          <strong>guilhermefelipe7982@gmail.com</strong>
-        </div>
-        <div>
-          <div class="label">Localização</div>
-          <strong>São Paulo — Zona Sul</strong>
-        </div>
-      </div>
-    </div>
-  </div>
 </header>
 
 <section id="sobre">
@@ -61,10 +46,7 @@
       </div>
       <div class="about-text">
         <p>
-          Atuo na área de comunicação digital com foco em criação de conteúdo,
-          identidade visual e storytelling para redes sociais. Desenvolvo projetos
-          voltados para comunicação jovem, branding e narrativas com impacto social,
-          unindo estratégia, estética e conexão com o público.
+          Crio projetos visuais voltados para comunicação jovem, branding e storytelling digital, unindo estética, narrativa e impacto visual para transformar ideias em conteúdos com identidade.
         </p>
       </div>
     </div>
@@ -77,7 +59,7 @@
     <h2 class="section-title">O que eu faço</h2>
     <div class="skills-grid">
       <div class="skill-card">
-        <h3>Social Media</h3>
+        <h3><i class="ph ph-instagram-logo"></i> Social Media</h3>
         <ul>
           <li>Planejamento de Conteúdo</li>
           <li>Gestão de Redes Sociais</li>
@@ -86,7 +68,7 @@
         </ul>
       </div>
       <div class="skill-card">
-        <h3>Design</h3>
+        <h3><i class="ph ph-pen-nib"></i> Design</h3>
         <ul>
           <li>Identidade Visual</li>
           <li>Carrosséis</li>
@@ -95,7 +77,7 @@
         </ul>
       </div>
       <div class="skill-card">
-        <h3>Comunicação</h3>
+        <h3><i class="ph ph-megaphone"></i> Comunicação</h3>
         <ul>
           <li>Storytelling</li>
           <li>Branding</li>
@@ -106,7 +88,6 @@
     </div>
   </div>
 </section>
-
 <section id="ferramentas">
   <div class="container">
     <div class="section-label">Ferramentas</div>
@@ -126,167 +107,183 @@
   <div class="container">
     <div class="section-label">Trabalhos</div>
     <h2 class="section-title">Projetos</h2>
-
-    <div class="projects">
-
-      <!-- PROJETO 1: Título de Eleitor -->
-      <div class="project-block">
-        <div class="project-meta">
-          <div>
-            <div class="project-name">Título de Eleitor</div>
-            <p class="project-desc">
-              Peça educativa sobre o processo de tirar o título de eleitor, desenvolvida
-              para a Semente Periférica com linguagem acessível e identidade visual própria.
-            </p>
-            <div class="tags">
-              <span class="tag">Identidade Visual</span>
-              <span class="tag">Educação Política</span>
-              <span class="tag">Instagram</span>
-            </div>
-          </div>
-        </div>
-                <div class="carousel-wrap" data-carousel="titulo">
-          <div class="carousel">
-            <div class="carousel-track" id="track-titulo">
-              <img src="img/001.png" alt="Título de Eleitor SP slide 1" loading="lazy" /><img src="img/002.png" alt="Título de Eleitor SP slide 2" loading="lazy" /><img src="img/003.png" alt="Título de Eleitor SP slide 3" loading="lazy" /><img src="img/004.png" alt="Título de Eleitor SP slide 4" loading="lazy" /><img src="img/005.png" alt="Título de Eleitor SP slide 5" loading="lazy" /><img src="img/006.png" alt="Título de Eleitor SP slide 6" loading="lazy" /><img src="img/007.png" alt="Título de Eleitor SP slide 7" loading="lazy" />
-            </div>
-          </div>
-          <div class="carousel-btns">
-            <button class="carousel-btn" onclick="moveCarousel('titulo',-1)">←</button>
-            <span class="carousel-counter" id="counter-titulo">1 / 7</span>
-            <button class="carousel-btn" onclick="moveCarousel('titulo',1)">→</button>
-          </div>
+    <div class="ig-grid">
+<div class="ig-item" onclick="openLightbox('lgbtqia')"><img src="img/lgbtqia_1.png" alt="Ícones da Luta LGBTQIA+" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Ícones da Luta LGBTQIA+</div><div class="ig-tags"><span>Série Visual</span><span>Identidade</span><span>Direitos</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('erika')"><img src="img/erika_1.png" alt="História Preta: Erika Hilton" loading="lazy" /><div class="ig-overlay"><div class="ig-title">História Preta: Erika Hilton</div><div class="ig-tags"><span>Editorial</span><span>Colagem</span><span>Política</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('arlindo')"><img src="img/arlindo_1.png" alt="História Preta: Arlindo Cruz" loading="lazy" /><div class="ig-overlay"><div class="ig-title">História Preta: Arlindo Cruz</div><div class="ig-tags"><span>Editorial</span><span>Cultura</span><span>Samba</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('julho')"><img src="img/julho_1.png" alt="Movimento Negro — Julho 1978" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Movimento Negro — Julho 1978</div><div class="ig-tags"><span>História</span><span>Colagem</span><span>Resistência</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('carandiru')"><img src="img/carandiru_1.png" alt="Carandiru & Racionais MCs" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Carandiru & Racionais MCs</div><div class="ig-tags"><span>História Preta</span><span>Memória</span><span>Urgência</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('ditadura')"><img src="img/ditadura_1.png" alt="Por que falar da Ditadura?" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Por que falar da Ditadura?</div><div class="ig-tags"><span>Educação</span><span>Criativo</span><span>Pop</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('literatura')"><img src="img/literatura_1.png" alt="Semana da Literatura" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Semana da Literatura</div><div class="ig-tags"><span>Evento</span><span>Cultura</span><span>Tipografia</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('autismo')"><img src="img/autismo_1.png" alt="Autismo: Mitos e Verdades" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Autismo: Mitos e Verdades</div><div class="ig-tags"><span>Educação</span><span>Saúde</span><span>Informação</span></div></div></div>
+<div class="ig-item" onclick="openLightbox('escola')"><img src="img/escola_1.png" alt="Ei, Você! — Escola" loading="lazy" /><div class="ig-overlay"><div class="ig-title">Ei, Você! — Escola</div><div class="ig-tags"><span>Pixel Art</span><span>Jovem</span><span>Criativo</span></div></div></div>
+    <div class="ig-item" onclick="openLightbox('titulo')">
+        <img src="img/titulo_1.png" alt="Título de Eleitor SP" loading="lazy" />
+        <div class="ig-overlay">
+          <div class="ig-title">Título de Eleitor SP</div>
+          <div class="ig-tags"><span>Educação</span><span>Cidadania</span><span>Direitos</span></div>
         </div>
       </div>
-
-      <!-- PROJETO 2: MP, PL, PECs -->
-      <div class="project-block">
-        <div class="project-meta">
-          <div>
-            <div class="project-name">MP, PL, PECs e Mais</div>
-            <p class="project-desc">
-              Carrossel explicativo sobre os diferentes tipos de projetos legislativos
-              brasileiros — do PL à MP — com linguagem jovem e visual educativo.
-            </p>
-            <div class="tags">
-              <span class="tag">Infografia</span>
-              <span class="tag">Comunicação Política</span>
-              <span class="tag">Storytelling</span>
-            </div>
-          </div>
-        </div>
-                <div class="carousel-wrap" data-carousel="leg">
-          <div class="carousel">
-            <div class="carousel-track" id="track-leg">
-              <img src="img/008.png" alt="Legislação slide 1" loading="lazy" /><img src="img/009.png" alt="Legislação slide 2" loading="lazy" /><img src="img/010.png" alt="Legislação slide 3" loading="lazy" /><img src="img/011.png" alt="Legislação slide 4" loading="lazy" /><img src="img/012.png" alt="Legislação slide 5" loading="lazy" /><img src="img/013.png" alt="Legislação slide 6" loading="lazy" /><img src="img/014.png" alt="Legislação slide 7" loading="lazy" /><img src="img/015.png" alt="Legislação slide 8" loading="lazy" /><img src="img/016.png" alt="Legislação slide 9" loading="lazy" /><img src="img/017.png" alt="Legislação slide 10" loading="lazy" /><img src="img/018.png" alt="Legislação slide 11" loading="lazy" />
-            </div>
-          </div>
-          <div class="carousel-btns">
-            <button class="carousel-btn" onclick="moveCarousel('leg',-1)">←</button>
-            <span class="carousel-counter" id="counter-leg">1 / 11</span>
-            <button class="carousel-btn" onclick="moveCarousel('leg',1)">→</button>
-          </div>
+      <div class="ig-item" onclick="openLightbox('legislacao')">
+        <img src="img/legislacao_1.png" alt="Legislação e sua Criação" loading="lazy" />
+        <div class="ig-overlay">
+          <div class="ig-title">Legislação e sua Criação</div>
+          <div class="ig-tags"><span>Infografia</span><span>Política</span><span>Educação</span></div>
         </div>
       </div>
-
-      <!-- PROJETO 3: Polos Políticos -->
-      <div class="project-block">
-        <div class="project-meta">
-          <div>
-            <div class="project-name">Polos Políticos</div>
-            <p class="project-desc">
-              Série visual explicando o espectro político — da esquerda à direita —
-              de forma clara, equilibrada e acessível para o público jovem.
-            </p>
-            <div class="tags">
-              <span class="tag">Série Visual</span>
-              <span class="tag">Educação</span>
-              <span class="tag">Design Editorial</span>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-wrap" data-carousel="polos">
-          <div class="carousel">
-            <div class="carousel-track" id="track-polos">
-              <img src="img/019.png" alt="Polos Políticos slide 1" loading="lazy" /><img src="img/020.png" alt="Polos Políticos slide 2" loading="lazy" /><img src="img/021.png" alt="Polos Políticos slide 3" loading="lazy" /><img src="img/022.png" alt="Polos Políticos slide 4" loading="lazy" /><img src="img/023.png" alt="Polos Políticos slide 5" loading="lazy" /><img src="img/024.png" alt="Polos Políticos slide 6" loading="lazy" /><img src="img/025.png" alt="Polos Políticos slide 7" loading="lazy" /><img src="img/026.png" alt="Polos Políticos slide 8" loading="lazy" /><img src="img/027.png" alt="Polos Políticos slide 9" loading="lazy" />
-            </div>
-          </div>
-          <div class="carousel-btns">
-            <button class="carousel-btn" onclick="moveCarousel('polos',-1)">←</button>
-            <span class="carousel-counter" id="counter-polos">1 / 9</span>
-            <button class="carousel-btn" onclick="moveCarousel('polos',1)">→</button>
-          </div>
+      <div class="ig-item" onclick="openLightbox('polos')">
+        <img src="img/polos_1.png" alt="Polos Políticos" loading="lazy" />
+        <div class="ig-overlay">
+          <div class="ig-title">Polos Políticos</div>
+          <div class="ig-tags"><span>Série Visual</span><span>Educação</span><span>Design</span></div>
         </div>
       </div>
-
-      <!-- PROJETO 4: História do Voto -->
-      <div class="project-block">
-        <div class="project-meta">
-          <div>
-            <div class="project-name">História do Voto</div>
-            <p class="project-desc">
-              Série narrando a evolução do direito ao voto no Brasil, do século XIX
-              até os dias atuais, com curadoria visual e texto jornalístico.
-            </p>
-            <div class="tags">
-              <span class="tag">Série Narrativa</span>
-              <span class="tag">História</span>
-              <span class="tag">Cidadania</span>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-wrap" data-carousel="voto">
-          <div class="carousel">
-            <div class="carousel-track" id="track-voto">
-              <img src="img/028.png" alt="História do Voto slide 1" loading="lazy" /><img src="img/029.png" alt="História do Voto slide 2" loading="lazy" /><img src="img/030.png" alt="História do Voto slide 3" loading="lazy" /><img src="img/031.png" alt="História do Voto slide 4" loading="lazy" /><img src="img/032.png" alt="História do Voto slide 5" loading="lazy" /><img src="img/033.png" alt="História do Voto slide 6" loading="lazy" /><img src="img/034.png" alt="História do Voto slide 7" loading="lazy" /><img src="img/035.png" alt="História do Voto slide 8" loading="lazy" /><img src="img/036.png" alt="História do Voto slide 9" loading="lazy" /><img src="img/037.png" alt="História do Voto slide 10" loading="lazy" />
-            </div>
-          </div>
-          <div class="carousel-btns">
-            <button class="carousel-btn" onclick="moveCarousel('voto',-1)">←</button>
-            <span class="carousel-counter" id="counter-voto">1 / 10</span>
-            <button class="carousel-btn" onclick="moveCarousel('voto',1)">→</button>
-          </div>
+      <div class="ig-item" onclick="openLightbox('voto')">
+        <img src="img/voto_1.png" alt="História do Voto" loading="lazy" />
+        <div class="ig-overlay">
+          <div class="ig-title">História do Voto</div>
+          <div class="ig-tags"><span>Série Narrativa</span><span>História</span><span>Brasil</span></div>
         </div>
       </div>
+      </div>
+  </div>
 
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lb-close">&#10005;</button>
+    <div class="lb-card">
+      <div class="lb-header">
+        <span class="lb-title" id="lb-title"></span>
+        <span class="lb-counter" id="lb-counter"></span>
+      </div>
+      <div class="lb-img-wrap">
+        <img id="lb-img" src="" alt="" />
+      </div>
+      <div class="lb-nav">
+        <button id="lb-prev">&#8592;</button>
+        <div class="lb-dots" id="lb-dots"></div>
+        <button id="lb-next">&#8594;</button>
+      </div>
     </div>
   </div>
 </section>
+<script>
+var SLIDES = {"lgbtqia": ["img/lgbtqia_1.png", "img/lgbtqia_2.png", "img/lgbtqia_3.png", "img/lgbtqia_4.png", "img/lgbtqia_5.png", "img/lgbtqia_6.png", "img/lgbtqia_7.png", "img/lgbtqia_8.png", "img/lgbtqia_9.png", "img/lgbtqia_10.png", "img/lgbtqia_11.png"], "erika": ["img/erika_1.png", "img/erika_2.png", "img/erika_3.png", "img/erika_4.png", "img/erika_5.png"], "arlindo": ["img/arlindo_1.png", "img/arlindo_2.png", "img/arlindo_3.png", "img/arlindo_4.png", "img/arlindo_5.png"], "julho": ["img/julho_1.png", "img/julho_2.png", "img/julho_3.png", "img/julho_4.png", "img/julho_5.png", "img/julho_6.png", "img/julho_7.png", "img/julho_8.png", "img/julho_9.png"], "carandiru": ["img/carandiru_1.png", "img/carandiru_2.png", "img/carandiru_3.png", "img/carandiru_4.png", "img/carandiru_5.png", "img/carandiru_6.png", "img/carandiru_7.png", "img/carandiru_8.png", "img/carandiru_9.png", "img/carandiru_10.png"], "ditadura": ["img/ditadura_1.png", "img/ditadura_2.png", "img/ditadura_3.png", "img/ditadura_4.png", "img/ditadura_5.png", "img/ditadura_6.png", "img/ditadura_7.png", "img/ditadura_8.png", "img/ditadura_9.png", "img/ditadura_10.png", "img/ditadura_11.png", "img/ditadura_12.png", "img/ditadura_13.png", "img/ditadura_14.png"], "literatura": ["img/literatura_1.png", "img/literatura_2.png", "img/literatura_3.png", "img/literatura_4.png", "img/literatura_5.png", "img/literatura_6.png", "img/literatura_7.png", "img/literatura_8.png"], "autismo": ["img/autismo_1.png", "img/autismo_2.png", "img/autismo_3.png", "img/autismo_4.png", "img/autismo_5.png", "img/autismo_6.png", "img/autismo_7.png", "img/autismo_8.png", "img/autismo_9.png", "img/autismo_10.png", "img/autismo_11.png", "img/autismo_12.png", "img/autismo_13.png"], "escola": ["img/escola_1.png", "img/escola_2.png", "img/escola_3.png", "img/escola_4.png"]
+  "titulo": ["img/titulo_1.png", "img/titulo_2.png", "img/titulo_3.png", "img/titulo_4.png", "img/titulo_5.png", "img/titulo_6.png", "img/titulo_7.png"],
+  "legislacao": ["img/legislacao_1.png", "img/legislacao_2.png", "img/legislacao_3.png", "img/legislacao_4.png", "img/legislacao_5.png", "img/legislacao_6.png", "img/legislacao_7.png", "img/legislacao_8.png", "img/legislacao_9.png", "img/legislacao_10.png", "img/legislacao_11.png"],
+  "polos": ["img/polos_1.png", "img/polos_2.png", "img/polos_3.png", "img/polos_4.png", "img/polos_5.png", "img/polos_6.png", "img/polos_7.png", "img/polos_8.png"],
+  "voto": ["img/voto_1.png", "img/voto_2.png", "img/voto_3.png", "img/voto_4.png", "img/voto_5.png", "img/voto_6.png", "img/voto_7.png", "img/voto_8.png", "img/voto_9.png", "img/voto_10.png"],
+};
+var TITLES = {"lgbtqia": "Ícones da Luta LGBTQIA+", "erika": "História Preta: Erika Hilton", "arlindo": "História Preta: Arlindo Cruz", "julho": "Movimento Negro — Julho 1978", "carandiru": "Carandiru & Racionais MCs", "ditadura": "Por que falar da Ditadura?", "literatura": "Semana da Literatura", "autismo": "Autismo: Mitos e Verdades", "escola": "Ei, Você! — Escola"
+  "titulo": "Título de Eleitor SP",
+  "legislacao": "Legislação e sua Criação",
+  "polos": "Polos Políticos",
+  "voto": "História do Voto",
+};
+var lbKey = null, lbIdx = 0;
+function openLightbox(key) {
+  lbKey = key; lbIdx = 0;
+  document.getElementById('lb-title').textContent = TITLES[key];
+  renderLb();
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function lbMove(dir) {
+  var total = SLIDES[lbKey].length;
+  lbIdx = (lbIdx + dir + total) % total;
+  renderLb();
+}
+function renderLb() {
+  var slides = SLIDES[lbKey];
+  document.getElementById('lb-img').src = slides[lbIdx];
+  document.getElementById('lb-counter').textContent = (lbIdx+1) + ' / ' + slides.length;
+  var dots = document.getElementById('lb-dots');
+  dots.innerHTML = slides.map(function(_,i){ return '<span class="' + (i===lbIdx?'active':'') + '"></span>'; }).join('');
+}
+document.getElementById('lb-close').onclick = closeLightbox;
+document.getElementById('lb-prev').onclick = function(){ lbMove(-1); };
+document.getElementById('lb-next').onclick = function(){ lbMove(1); };
+document.getElementById('lightbox').onclick = function(e){ if(e.target===this) closeLightbox(); };
+document.addEventListener('keydown', function(e){
+  if(!document.getElementById('lightbox').classList.contains('open')) return;
+  if(e.key==='ArrowRight') lbMove(1);
+  if(e.key==='ArrowLeft') lbMove(-1);
+  if(e.key==='Escape') closeLightbox();
+});
+var lbTouchX = 0;
+document.addEventListener('touchstart', function(e){ lbTouchX = e.touches[0].clientX; });
+document.addEventListener('touchend', function(e){
+  if(!document.getElementById('lightbox').classList.contains('open')) return;
+  var diff = lbTouchX - e.changedTouches[0].clientX;
+  if(Math.abs(diff) > 50) lbMove(diff > 0 ? 1 : -1);
+});
+</script>
+<section id="resultados">
+  <div class="container">
+    <div class="section-label">Impacto</div>
+    <h2 class="section-title">Resultados</h2>
+    <p class="resultados-desc">Durante meu ano letivo à frente da comunicação do <a href="https://instagram.com/semente.periferica" target="_blank" rel="noopener">@semente.periferica</a>, construí junto com minha equipe uma presença digital que gerou esses resultados.</p>
+    <div class="resultados-grid">
+      <div class="resultado-card">
+        <div class="resultado-num">232,7 mil</div>
+        <div class="resultado-label">Visualizações</div>
+        <div class="resultado-growth">+100%</div>
+      </div>
+      <div class="resultado-card">
+        <div class="resultado-num">10,4 mil</div>
+        <div class="resultado-label">Alcance</div>
+        <div class="resultado-growth">+39%</div>
+      </div>
+      <div class="resultado-card">
+        <div class="resultado-num">3,5 mil</div>
+        <div class="resultado-label">Interações</div>
+        <div class="resultado-growth">+100%</div>
+      </div>
+      <div class="resultado-card">
+        <div class="resultado-num">5 mil</div>
+        <div class="resultado-label">Visitas ao perfil</div>
+        <div class="resultado-growth">+19,9%</div>
+      </div>
+      <div class="resultado-card">
+        <div class="resultado-num">193</div>
+        <div class="resultado-label">Cliques no link</div>
+        <div class="resultado-growth">+39,9%</div>
+      </div>
+      <div class="resultado-card">
+        <div class="resultado-num">330</div>
+        <div class="resultado-label">Seguidores</div>
+        <div class="resultado-growth">Mai–Dez 2024</div>
+      </div>
+    </div>
+    <p class="resultados-period">Mai 2024 – Dez 2024 · @semente.periferica</p>
+  </div>
+</section>
 
+<section id="ferramentas">
+  <div class="container">
+    <div class="section-label">Ferramentas</div>
+    <h2 class="section-title">Ferramentas</h2>
+    <div class="tools-wrap">
+      <div class="tool">Canva</div>
+      <div class="tool">Affinity Designer</div>
+      <div class="tool">CapCut</div>
+      <div class="tool">Pacote Adobe</div>
+      <div class="tool">Trello</div>
+      <div class="tool">Google Workspace</div>
+    </div>
+  </div>
+</section>
 
 
 <footer id="contato">
   <div class="container">
     <h2>Vamos criar<br>algo juntos?</h2>
     <p>Disponível para projetos de social media, branding, comunicação visual e conteúdo digital.</p>
-    <a href="https://mail.google.com/mail/?view=cm&to=guilhermefelipe7982@gmail.com" class="btn-hero">guilhermefelipe7982@gmail.com</a>
+    <a href="https://mail.google.com/mail/?view=cm&to=guilhermefelipe7982@gmail.com" target="_blank" rel="noopener" class="btn-hero">Entrar em contato →</a>
   </div>
 </footer>
-
-<script>
-  const state = {};
-
-  function moveCarousel(id, dir) {
-    const track = document.getElementById('track-' + id);
-    const imgs = track.querySelectorAll('img');
-    const total = imgs.length;
-    if (!state[id]) state[id] = 0;
-    state[id] = (state[id] + dir + total) % total;
-    track.style.transform = 'translateX(-' + (state[id] * 100) + '%)';
-    document.getElementById('counter-' + id).textContent = (state[id]+1) + ' / ' + total;
-  }
-
-  // Swipe support
-  document.querySelectorAll('.carousel').forEach(el => {
-    let startX = 0;
-    el.addEventListener('touchstart', e => startX = e.touches[0].clientX);
-    el.addEventListener('touchend', e => {
-      const diff = startX - e.changedTouches[0].clientX;
-      const id = el.closest('.carousel-wrap').dataset.carousel;
-      if (Math.abs(diff) > 50) moveCarousel(id, diff > 0 ? 1 : -1);
-    });
-  });
-</script>
-
 </body>
 </html>
